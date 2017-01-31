@@ -1,0 +1,54 @@
+﻿@model FlowerWorld.Models.AuthViewModel
+
+@{
+    ViewBag.Title = "Пользователи";
+}
+
+<h2>Пользователи</h2>
+<hr />
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-12 text-right">
+                        <i class="fa fa-user-plus"></i>
+                        @Html.ActionLink("Добавить", "CreateUser", "Admin",null,new { @class = "user-add"})
+                    </div>
+                </div>
+                <table class="table table-responsive">
+                    <thead>
+                        <tr>
+                            <th>Имя</th>
+                            <th>Дата создания</th>
+                            <th>Дата обновления</th>
+                            <th>Действия</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.CountCheck())
+                        {
+                            <tr><td colspan="2">Пользователи отсутствуют</td></tr>
+                        }
+                        else
+                        {
+                            foreach (var user in Model.UserList)
+                            {
+                                <tr>
+                                    <td>@user.UserName</td>
+                                    <td>@user.DateCreate</td>
+                                    <td>@user.DateUpdate</td>
+                                    <td>
+                                        @Html.ActionLink(" ", "EditUser", "Admin",new { id = @user.Id } ,new { @class = "fa fa-pencil-square-o" })
+                                        @Html.ActionLink(" ","DeleteUser","Admin",new { @id = @user.Id },new { @class = "fa fa-times" })
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>    
+</div>

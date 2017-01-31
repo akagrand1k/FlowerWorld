@@ -1,0 +1,154 @@
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\obj\Debug\FlowerWorld.csprojResolveAssemblyReference.cache
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\ApplicationInsights.config
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\csc.exe
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\vbc.exe
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\VBCSCompiler.exe
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\FlowerWorld.dll.config
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\FlowerWorld.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\FlowerWorld.pdb
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Antlr3.Runtime.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\EntityFramework.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\EntityFramework.SqlServer.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\FlowerWorld.BL.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\FlowerWorld.DAL.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\log4net.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.AI.Web.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.ApplicationInsights.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Newtonsoft.Json.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Ninject.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Ninject.Web.Common.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Ninject.Web.Mvc.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Helpers.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Mvc.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Optimization.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Razor.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.Deployment.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.Razor.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\WebActivatorEx.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\WebGrease.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\FlowerWorld.BL.pdb
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\FlowerWorld.DAL.pdb
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Antlr3.Runtime.pdb
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\EntityFramework.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\EntityFramework.SqlServer.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\log4net.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.AI.Web.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.ApplicationInsights.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Newtonsoft.Json.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Ninject.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Ninject.Web.Common.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\Ninject.Web.Mvc.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Optimization.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Razor.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.Deployment.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.Razor.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Helpers.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\System.Web.Mvc.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\ru\System.Web.Razor.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\obj\Debug\FlowerWorld.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\obj\Debug\FlowerWorld.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\ApplicationInsights.config
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\csc.exe
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\System.Collections.Immutable.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\System.Reflection.Metadata.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\vbc.exe
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\VBCSCompiler.exe
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\VBCSCompiler.exe.config
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\FlowerWorld.dll.config
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\FlowerWorld.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\FlowerWorld.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Antlr3.Runtime.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\EntityFramework.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\EntityFramework.SqlServer.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\FlowerWorld.BL.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\FlowerWorld.DAL.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\ImageResizer.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\log4net.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.AI.DependencyCollector.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.AI.Web.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.AI.WindowsServer.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.ApplicationInsights.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.Web.Infrastructure.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Newtonsoft.Json.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Ninject.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Ninject.Web.Common.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Ninject.Web.Mvc.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Helpers.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Mvc.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Optimization.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Razor.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.Deployment.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.Razor.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\WebActivatorEx.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\WebGrease.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\FlowerWorld.BL.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\FlowerWorld.DAL.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Antlr3.Runtime.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\EntityFramework.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\EntityFramework.SqlServer.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\ImageResizer.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\log4net.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.AI.DependencyCollector.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.AI.Web.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.AI.WindowsServer.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.ApplicationInsights.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Newtonsoft.Json.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Ninject.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Ninject.Web.Common.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Ninject.Web.Mvc.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Optimization.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Razor.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.Deployment.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Webpages.Razor.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Helpers.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\System.Web.Mvc.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\ru\System.Web.Razor.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\ru\System.Web.Webpages.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\ru\System.Web.Webpages.Deployment.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\ru\System.Web.Webpages.Razor.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\ru\System.Web.Helpers.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\ru\System.Web.Mvc.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\obj\Debug\FlowerWorld.csprojResolveAssemblyReference.cache
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\obj\Debug\FlowerWorld.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\obj\Debug\FlowerWorld.pdb

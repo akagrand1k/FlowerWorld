@@ -1,0 +1,52 @@
+﻿@model FlowerWorld.Models.CategoryViewModel
+
+@{
+    ViewBag.Title = "Категория товара";
+}
+
+<h2>Категории товаров</h2>
+<hr />
+
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-12 text-right">
+                        <i class="fa fa-plus-circle"></i>
+                        @Html.ActionLink("Добавить", "CreateCategory", "Admin", null, new { @class = "user-add" })
+                    </div>
+                </div>
+                <table class="table table-responsive">
+                    <thead>
+                        <tr>
+                            <th>Наименование</th>
+                            <th>Действия</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.CountCheck())
+                        {
+                            <tr><td colspan="2" class="text-center">Категории отсутствуют</td></tr>
+                        }
+                        else
+                        {
+                            foreach (var user in Model.CategoryList)
+                            {
+                                <tr>
+                                    <td>@user.CategoryName</td>
+                                    <td>
+                                        @Html.ActionLink(" ", "EditCategory", "Admin", new { id = @user.Id }, new { @class = "fa fa-pencil-square-o" })
+                                        @Html.ActionLink(" ", "DeleteCategory", "Admin", new { @id = @user.Id }, new { @class = "fa fa-times" })
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

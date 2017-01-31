@@ -1,0 +1,27 @@
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\bin\Debug\FlowerWorld.DAL.dll.config
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\bin\Debug\FlowerWorld.DAL.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\bin\Debug\FlowerWorld.DAL.pdb
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\bin\Debug\EntityFramework.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\bin\Debug\EntityFramework.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.csprojResolveAssemblyReference.cache
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.InitialCreate.resources
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.csproj.GenerateResource.Cache
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\bin\Debug\FlowerWorld.DAL.dll.config
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\bin\Debug\FlowerWorld.DAL.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\bin\Debug\FlowerWorld.DAL.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\bin\Debug\EntityFramework.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\bin\Debug\EntityFramework.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.InitialCreate.resources
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.AddProductProperty.resources
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.test.resources
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.test1.resources
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.test2.resources
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.csproj.GenerateResource.Cache
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.pdb

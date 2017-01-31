@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Цветочный магазин - Мир Цветов.</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/bootstrap")
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-lg-3 col-md-3">
+                <a href="@Url.Action("Index","Main")">
+                    <img src="~/Content/Images/logo.jpg" alt="Мир Цветов" class="logo" />
+                </a>
+            </div>
+            <div class="col-sm-9 col-lg-9 col-md-9 text-right">
+                <div class="search">
+                    @Html.TextBox("search-tb", "", new { @class = "search-tb", placeholder = "Введите для поиска" })
+                    <button class="search-icon fa fa-search"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-lg-12 col-md-12 menu">
+                <ul>
+
+                    <li><a href="@Url.Action("Index","Main")">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Наши офисы</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <div class="container-fluid">
+        @RenderBody()
+        <hr />
+        <footer class="footer text-center">
+            <img src="~/Content/Images/logo-footer.jpg" alt="" /> <br />
+            <span>
+                <a href="@Url.Action("Index","Main")">Главная</a> &nbsp;&nbsp;&nbsp;
+                <a href="#">Каталог</a> &nbsp;&nbsp;&nbsp;
+                <a href="#">О нас</a> &nbsp;&nbsp;&nbsp;
+                <a href="#">Отзывы</a> &nbsp;&nbsp;&nbsp;
+                <a href="#">Наши офисы</a> &nbsp;&nbsp;&nbsp;
+            </span>
+
+            <h4>Copyright Мир Цветов © 2017.</h4>
+            
+        </footer>
+    </div>
+
+</body>
+</html>

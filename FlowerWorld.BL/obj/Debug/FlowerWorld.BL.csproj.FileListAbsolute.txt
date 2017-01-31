@@ -1,0 +1,52 @@
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\FlowerWorld.BL.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\FlowerWorld.BL.pdb
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Helpers.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Mvc.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Razor.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Helpers.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Mvc.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Razor.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.Helpers.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.Razor.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.WebPages.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\obj\Debug\FlowerWorld.BL.csprojResolveAssemblyReference.cache
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\obj\Debug\FlowerWorld.BL.dll
+C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld.BL\obj\Debug\FlowerWorld.BL.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\FlowerWorld.BL.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\FlowerWorld.BL.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\FlowerWorld.DAL.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Helpers.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Mvc.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Razor.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\EntityFramework.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\FlowerWorld.DAL.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Helpers.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Mvc.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Razor.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\EntityFramework.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.Helpers.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.Mvc.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.Razor.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.WebPages.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\obj\Debug\FlowerWorld.BL.csprojResolveAssemblyReference.cache
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\obj\Debug\FlowerWorld.BL.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\obj\Debug\FlowerWorld.BL.pdb

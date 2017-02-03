@@ -21,6 +21,7 @@
                 <table class="table table-responsive">
                     <thead>
                         <tr>
+                            <th>Логотип</th>
                             <th>Наименование</th>
                             <th>Действия</th>
                         </tr>
@@ -35,6 +36,9 @@
                             foreach (var user in Model.CategoryList)
                             {
                                 <tr>
+                                    <td>
+                                        <img src="@Url.Content(@user.smallPath)" />
+                                    </td>
                                     <td>@user.CategoryName</td>
                                     <td>
                                         @Html.ActionLink(" ", "EditCategory", "Admin", new { id = @user.Id }, new { @class = "fa fa-pencil-square-o" })

@@ -1,0 +1,57 @@
+﻿@model FlowerWorld.Models.OrderViewModel
+
+@using FlowerWorld.Infrastructure
+
+@{
+    ViewBag.Title = "Заказы";
+}
+
+<h2>Заказы</h2>
+@Html.ActionLink("Выполненные заказы","FinishOrders","Admin",new { @class = "fin-orders" })
+<div class="row">
+    <div class="col-sm-12 col-lg-12 col-md-12">
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td>Имя заказчика</td>
+                    <td>Телефон</td>
+                    <td>Описание</td>
+                    <td>Товар</td>
+                    <td>Дата заказа</td>
+                    <td>Действия</td>
+                </tr>
+            </thead>
+            <tbody>
+                @if (@Model.CountCheck())
+                {
+                    <tr><td colspan="5" class="text-center">Заказы отсутствуют</td></tr>
+                }
+                else
+                {
+                    foreach (var item in Model.OrderList)
+                    {
+                        <tr>
+                            <td>@item.CustomerName</td>
+                            <td>@item.CusmomerPhone</td>
+                            <td>@item.DesciptionOrder</td>
+                            <td>
+                                <img src="@Url.Content(@item.Product.smallPath)"/>
+                                @item.Product.ProductName
+                            </td>
+                            <td>@item.DateOrder</td>
+                            <td>
+                                @Html.ActionLink(" ", "DeleteOrder", "Admin", new { @id = @item.Id }, new { @class = "fa fa-times" })
+                                @Html.ActionLink(" ", "ExecuteOrder", "Admin",new { @id = @item.Id},new { @class = "fa fa-check"})
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="btn-group">
+        @Html.PageLinks(Model.PageInfo, x => Url.Action("Orders", new { page = x}))
+    </div>
+
+</div>

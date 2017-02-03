@@ -1,0 +1,9 @@
+﻿@model FlowerWorld.Models.BaseViewModel
+
+<div class="search">
+    @using (Html.BeginForm("SearchProduct", "Catalog", FormMethod.Get))
+    {
+        @Html.TextBox("searchCritery","",new { @class = "search-tb", placeholder = "Введите для поиска" })
+        <button class="search-icon fa fa-search"></button>
+    }
+</div>

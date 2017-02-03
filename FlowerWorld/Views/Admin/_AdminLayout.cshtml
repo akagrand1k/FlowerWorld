@@ -38,11 +38,6 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
-                            <li class="dropdown-header">SETTINGS</li>
-                            <li class=""><a href="#">Other Link</a></li>
-                            <li class=""><a href="#">Other Link</a></li>
-                            <li class=""><a href="#">Other Link</a></li>
-                            <li class="divider"></li>
                             <li>
                                 @Html.ActionLink("Выход", "Logout", "Auth",null,new { @class="fa fa-sign-out"})
                             </li>
@@ -62,9 +57,8 @@
                         <nav class="navbar navbar-default" role="navigation">
                             <div class="side-menu-container">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#"><span class="glyphicon glyphicon-dashboard"></span> Главная</a></li>
                                     <li><a href="@Url.Action("Product","Admin")"><span class="fa fa-shopping-basket"></span>Управление каталогом</a></li>
-                                    <li><a href="#"><span class="fa fa-phone"></span>Обработка заявок</a></li>
+                                    <li><a href="@Url.Action("Orders","Admin")"><span class="fa fa-phone"></span>Обработка заявок</a></li>
                                     <li class="panel panel-default" id="dropdown">
                                         <a data-toggle="collapse" href="#dropdown-lvl1">
                                             <span class="fa fa-table"></span>Работа со справочниками<span class="caret"></span>

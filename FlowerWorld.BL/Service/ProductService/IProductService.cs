@@ -10,9 +10,12 @@ namespace FlowerWorld.BL.Service.ProductService
     public interface IProductService
     {
         IEnumerable<Product> FullProductList { get; }
-        Product GetProductById(int id);
+        ProductDto GetProductById(int id);
         void CreateProduct(ProductDto dto);
         void EditProduct(ProductDto dto);
         void DeleteProduct(int id);
+        List<Product> FilterProducts(int typeId, int minPrice, int maxPrice);
+        List<Product> FilterProducts(int typeId);
+        List<Product> SearchProducts(string critery);
     }
 }

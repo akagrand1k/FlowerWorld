@@ -14,6 +14,7 @@ namespace FlowerWorld.DAL.Models
         public DateTime DateOrder { get; set; }
         public int ProductId { get; set; }
         public string DesciptionOrder { get; set; }
+        public bool IsDone { get; set; }
 
         [ForeignKey("ProductId")]
         public Product Product { get; set; }

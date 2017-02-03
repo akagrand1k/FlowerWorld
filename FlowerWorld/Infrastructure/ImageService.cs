@@ -45,6 +45,7 @@ namespace FlowerWorld.Infrastructure
             path = path.Insert(path.LastIndexOf("."), "s");
             return GetVirtualPath(path);
         }
+        
         public string ResizeImage(HttpPostedFileBase file)
         {
             var _fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
@@ -55,8 +56,8 @@ namespace FlowerWorld.Infrastructure
                 var ext = file.FileName.Substring(file.FileName.LastIndexOf(".") + 1);
                 
                 var versions = new Dictionary<string, string>();
-                versions.Add("s", "maxwidth=50&maxheight=50&format=" + "jpg");
-                versions.Add("l", "maxwidth=200&maxheight=200&format=" + "jpg");
+                versions.Add("s", "maxwidth=50&maxheight=50&format=" + ext);
+                versions.Add("l", "maxwidth=200&maxheight=200&format=" + ext);
 
                 foreach (var suffix in versions.Keys)
                 {

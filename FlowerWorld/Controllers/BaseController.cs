@@ -1,6 +1,7 @@
 ﻿using FlowerWorld.App_Start;
 using FlowerWorld.BL.Service.AuthService;
 using FlowerWorld.BL.Service.CategoryService;
+using FlowerWorld.BL.Service.OrderService;
 using FlowerWorld.BL.Service.ProductService;
 using FlowerWorld.DAL.Models;
 using FlowerWorld.DAL.Repository;
@@ -40,6 +41,9 @@ namespace FlowerWorld.Controllers
 
         [Inject]
         public IProductService ProductService { get; set; }
+
+        [Inject]
+        public IOrderService OrderService { get; set; }
 
         public BaseController()
         {            

@@ -17,6 +17,7 @@ D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerW
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\bin\Debug\EntityFramework.SqlServer.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\bin\Debug\EntityFramework.xml
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.csprojResolveAssemblyReference.cache
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.InitialCreate.resources
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.AddProductProperty.resources
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.test.resources
@@ -25,3 +26,6 @@ D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerW
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.csproj.GenerateResource.Cache
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.relPathCategory.resources
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.relPathCategory1.resources
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.DAL\obj\Debug\FlowerWorld.DAL.Migrations.BoolPropertyOrder.resources

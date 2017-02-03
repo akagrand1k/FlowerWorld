@@ -7,17 +7,19 @@ using System.Web;
 
 namespace FlowerWorld.Models
 {
-    public class CategoryViewModel
+    public class CategoryViewModel : BaseViewModel
     {
         public int Id { get; set; }
 
         [Required]
         [Display(Name = "Наименование категории")]
         public string CategoryName { get; set; }
+        public string relPath { get; set; }
 
-        public DateTime DateCreate { get; set; }
-        public DateTime DateUpdate { get; set; }
-
+        [Required]
+        [Display(Name = "Выберите файл")]
+        public HttpPostedFileBase File { get; set; }
+        
         public IEnumerable<Category> CategoryList { get; set; }
 
         public bool CountCheck()

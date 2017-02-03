@@ -1,7 +1,9 @@
-﻿using FlowerWorld.BL.Service.AuthService;
+﻿using Calabonga.Mvc.PagedListExt;
+using FlowerWorld.BL.Service.AuthService;
 using FlowerWorld.BL.Service.CategoryService;
 using FlowerWorld.BL.Service.ProductService;
 using FlowerWorld.DAL;
+using FlowerWorld.DAL.Models;
 using FlowerWorld.Infrastructure;
 using FlowerWorld.Models;
 using System;
@@ -9,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+
 
 namespace FlowerWorld.Controllers
 {
@@ -101,7 +104,8 @@ namespace FlowerWorld.Controllers
 
         public ActionResult CreateCategory()
         {
-            return View();
+            CategoryViewModel model = new CategoryViewModel();
+            return View(model);
         }
 
         [HttpPost]
@@ -109,8 +113,11 @@ namespace FlowerWorld.Controllers
         public ActionResult CreateCategory(CategoryViewModel model)
         {
             CategoryDto dto = new CategoryDto();
+            string imgPath = ImageService.ResizeImage(model.File);
             if (ModelState.IsValid)
             {
+                dto.smallPath = ImageService.GetSmallVirPath(imgPath);
+                dto.largePath = ImageService.GetLargeVirPath(imgPath);
                 dto.CategoryName = model.CategoryName;
                 CategoryService.CategoryCreate(dto);
                 return RedirectToAction("Category", "Admin");
@@ -143,22 +150,25 @@ namespace FlowerWorld.Controllers
 
         public ActionResult DeleteCategory(int id)
         {
-            if (id != 0)
-            {
-                CategoryService.DeleteCategory(id);
-                return RedirectToAction("Category","Admin");
-            }
-            return View();
+            CategoryService.DeleteCategory(id);
+            return RedirectToAction("Category", "Admin");
         }
         #endregion
-        
+
         #region Product
-        public ActionResult Product()
+        public ActionResult Product(int CategoryId=0,int page=1)
         {
             ProductViewModel model = new ProductViewModel();
-            model.ProductList = ProductService.FullProductList;
+            int pageSize = 5;
+            model.CurrentFilter = CategoryId;
+
+            List<Product> tList = ProductService.FilterProducts(CategoryId);
+            model.ProductList = tList.Skip((page - 1) * pageSize).Take(pageSize);
+            model.categoryList = CategoryService.FullCategoryList.ToList();
+            model.PageInfo = new PageInfo { PageNumber = page, PageSize = pageSize, TotalItems = tList.Count };
             return View(model);
         }
+
         public ActionResult CreateProduct()
         {
             ProductViewModel model = new ProductViewModel();
@@ -190,7 +200,7 @@ namespace FlowerWorld.Controllers
         {
             ProductViewModel model = new ProductViewModel();
             var editmodel = ProductService.GetProductById(id);
-
+            
             if (id!= 0)
             {
                 model.categoryList = CategoryService.FullCategoryList.ToList();
@@ -207,15 +217,7 @@ namespace FlowerWorld.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult EditProduct(ProductViewModel model)
         {
-            ProductDto dto = new ProductDto();
-
-            dto.Id = model.Id;
-            dto.ProductName = model.ProductName;
-            dto.Price = model.Price;
-            dto.Description = model.Description;
-            dto.CategoryId = model.CategoryId;
-            dto.DateUpdate = DateTime.Now;
-            ProductService.EditProduct(dto);
+            ProductService.EditProduct(model.ProductMapper(model));
             return RedirectToAction("Product", "Admin");
         }
 
@@ -223,6 +225,39 @@ namespace FlowerWorld.Controllers
         {
             ProductService.DeleteProduct(id);
             return RedirectToAction("Product", "Admin");
+        }
+
+        #endregion
+
+        #region Orders
+        public ActionResult Orders(int page=1)
+        {
+            OrderViewModel model = new OrderViewModel();
+            List <Order> tList = OrderService.NoExecuteOrder.ToList();
+            model.OrderList = tList.Skip((page-1)*5).Take(5);
+            model.PageInfo = new PageInfo {PageNumber = page,PageSize =5,TotalItems = tList.Count };
+            return View(model);
+        }
+
+        public ActionResult FinishOrders(int page=1)
+        {
+            OrderViewModel model = new OrderViewModel();
+            List<Order> tList = OrderService.FinishOrders.ToList();
+            model.OrderList = tList.Skip((page - 1) * 5).Take(5);
+            model.PageInfo = new PageInfo { PageNumber = page, PageSize = 5, TotalItems = tList.Count };
+            return View(model);
+        }
+
+        public ActionResult ExecuteOrder(int id)
+        {
+            OrderService.ExecuteOrder(id);
+            return RedirectToAction("Orders");
+        }
+
+        public ActionResult DeleteOrder(int id)
+        {
+            OrderService.DeleteOrder(id);
+            return RedirectToAction("Orders", "Admin");
         }
         #endregion
     }

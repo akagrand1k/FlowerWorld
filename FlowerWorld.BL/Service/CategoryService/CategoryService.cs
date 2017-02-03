@@ -29,6 +29,8 @@ namespace FlowerWorld.BL.Service.CategoryService
             if (Dto != null)
             {
                 entity.CategoryName = Dto.CategoryName;
+                entity.largePath = Dto.largePath;
+                entity.smallPath = Dto.smallPath;
                 entity.DateCreate = DateTime.Now;
                 entity.DateUpdate = DateTime.Now;
                 catRepository.Add(entity);

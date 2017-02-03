@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
@@ -77,6 +78,9 @@
     <Compile Include="Service\CategoryService\CategoryDto.cs" />
     <Compile Include="Service\CategoryService\CategoryService.cs" />
     <Compile Include="Service\CategoryService\ICategoryService.cs" />
+    <Compile Include="Service\OrderService\IOrderService.cs" />
+    <Compile Include="Service\OrderService\OrderDto.cs" />
+    <Compile Include="Service\OrderService\OrderService.cs" />
     <Compile Include="Service\ProductService\IProductService.cs" />
     <Compile Include="Service\ProductService\ProductDto.cs" />
     <Compile Include="Service\ProductService\ProductService.cs" />

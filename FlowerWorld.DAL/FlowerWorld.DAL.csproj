@@ -70,6 +70,18 @@
     <Compile Include="Migrations\201701311013576_test2.Designer.cs">
       <DependentUpon>201701311013576_test2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702021246438_relPath-Category.cs" />
+    <Compile Include="Migrations\201702021246438_relPath-Category.Designer.cs">
+      <DependentUpon>201702021246438_relPath-Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702021315537_relPath-Category1.cs" />
+    <Compile Include="Migrations\201702021315537_relPath-Category1.Designer.cs">
+      <DependentUpon>201702021315537_relPath-Category1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702031129170_BoolPropertyOrder.cs" />
+    <Compile Include="Migrations\201702031129170_BoolPropertyOrder.Designer.cs">
+      <DependentUpon>201702031129170_BoolPropertyOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BaseEntity.cs" />
     <Compile Include="Models\Category.cs" />
@@ -99,6 +111,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201701311013576_test2.resx">
       <DependentUpon>201701311013576_test2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702021246438_relPath-Category.resx">
+      <DependentUpon>201702021246438_relPath-Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702021315537_relPath-Category1.resx">
+      <DependentUpon>201702021315537_relPath-Category1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702031129170_BoolPropertyOrder.resx">
+      <DependentUpon>201702031129170_BoolPropertyOrder.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

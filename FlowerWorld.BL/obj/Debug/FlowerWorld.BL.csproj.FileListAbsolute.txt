@@ -32,7 +32,6 @@ D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerW
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.Deployment.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.WebPages.Razor.dll
-D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\EntityFramework.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\FlowerWorld.DAL.pdb
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Helpers.xml
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld.BL\bin\Debug\System.Web.Mvc.xml

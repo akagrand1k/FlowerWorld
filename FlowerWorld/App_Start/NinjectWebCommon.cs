@@ -18,6 +18,7 @@ namespace FlowerWorld.App_Start
     using BL.Service.CategoryService;
     using Infrastructure;
     using BL.Service.ProductService;
+    using BL.Service.OrderService;
     public static class NinjectWebCommon 
     {
         private static readonly Bootstrapper bootstrapper = new Bootstrapper();
@@ -73,6 +74,7 @@ namespace FlowerWorld.App_Start
             Kernel.Bind<IImageService>().To<ImageService>();
             Kernel.Bind<ICategoryService>().To<CategoryService>();
             Kernel.Bind<IProductService>().To<ProductService>();
+            Kernel.Bind<IOrderService>().To<OrderService>();
 
             Kernel.Bind<DbContext>().ToConstructor(_ => new FlowerContext());
         }        

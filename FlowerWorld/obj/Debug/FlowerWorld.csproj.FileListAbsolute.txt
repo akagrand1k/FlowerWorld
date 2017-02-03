@@ -74,23 +74,24 @@ C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\r
 C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\bin\ru\System.Web.Mvc.resources.dll
 C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\obj\Debug\FlowerWorld.dll
 C:\Users\381\documents\visual studio 2015\Projects\FlowerWorld\FlowerWorld\obj\Debug\FlowerWorld.pdb
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\System.Reflection.Metadata.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\VBCSCompiler.exe
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\ApplicationInsights.config
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\csc.exe
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CodeAnalysis.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.CSharp.Core.targets
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\Microsoft.VisualBasic.Core.targets
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\System.Collections.Immutable.dll
-D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\System.Reflection.Metadata.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\vbc.exe
-D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\VBCSCompiler.exe
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\roslyn\VBCSCompiler.exe.config
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\FlowerWorld.dll.config
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\FlowerWorld.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\FlowerWorld.pdb
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Antlr3.Runtime.dll
+D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\Calabonga.Mvc.PagedListExt.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\EntityFramework.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\EntityFramework.SqlServer.dll
 D:\Work\Дипломы\Мир Цветов(Крищенко)\FlowerWorld\FlowerWorld\bin\FlowerWorld.BL.dll

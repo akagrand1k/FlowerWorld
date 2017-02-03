@@ -1,4 +1,5 @@
-﻿using FlowerWorld.DAL.Models;
+﻿using FlowerWorld.BL.Service.ProductService;
+using FlowerWorld.DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -8,7 +9,7 @@ using System.Web.Mvc;
 
 namespace FlowerWorld.Models
 {
-    public class ProductViewModel
+    public class ProductViewModel : BaseViewModel
     {
         public int Id { get; set; }
         [Required]
@@ -18,6 +19,11 @@ namespace FlowerWorld.Models
         [Required]
         [Display(Name = "Цена")]
         public int? Price { get; set; }
+
+        
+        public int? minPrice { get; set; }
+        
+        public int? maxPrice { get; set; }
 
         [Required]
         [Display(Name ="Описание продукта")]
@@ -34,6 +40,9 @@ namespace FlowerWorld.Models
         public IEnumerable<Product> ProductList { get; set; }
         public List<Category> categoryList { get; set; }// initialize for dropdownlist
         
+        public PageInfo PageInfo { get; set; }
+        public int CurrentFilter { get; set; }
+        public int typeId { get; set; }
 
         public bool CountCheck()
         {
@@ -52,6 +61,30 @@ namespace FlowerWorld.Models
                         , Text = category.CategoryName };
                 }
             }
+        }
+
+        public  ProductDto ProductMapper(ProductViewModel model)
+        {
+            return new ProductDto
+            {
+                Id = model.Id,
+                ProductName = model.ProductName,
+                Price = model.Price,
+                CategoryId = model.CategoryId,
+                Description = model.Description
+            };
+        }
+
+        public ProductViewModel DtoMapper(ProductDto dto)
+        {
+            return new ProductViewModel
+            {
+                Id = dto.Id,
+                ProductName = dto.ProductName,
+                Price = dto.Price,
+                CategoryId = dto.CategoryId,
+                Description = dto.Description
+            };
         }
     }
 }

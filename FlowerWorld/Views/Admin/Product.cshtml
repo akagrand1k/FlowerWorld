@@ -1,20 +1,37 @@
-﻿@model FlowerWorld.Models.ProductViewModel
+﻿@model  FlowerWorld.Models.ProductViewModel
+@using FlowerWorld.Infrastructure
 
 @{
     ViewBag.Title = "Управление продуктами";
 }
 
+@Scripts.Render("~/Scripts/jquery.unobtrusive-ajax.min.js")
+
+
 <h2>Продукция</h2>
-<hr />
+
 <div class="row">
     <div class="col-sm-12 col-lg-12 col-md-12">
         <div class="row">
-            <div class="col-sm-12 text-right">
+            <div class="col-sm-6 text-left">
+                @using (Html.BeginForm("Product", "Admin"))
+                {
+                    <div class="row form-group">
+                        <div class="col-sm-5 col-md-5 col-lg-5">
+                            @Html.LabelFor(x => x.SelectListCategory)
+                            @Html.DropDownListFor(x => x.CategoryId, Model.SelectListCategory, new { @class = "form-control" })
+                            <button type="submit" class="btn btn-default">Фильтровать</button>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="col-sm-6 text-right">
                 <i class="fa fa-plus-circle"></i>
                 @Html.ActionLink("Добавить", "CreateProduct", "Admin", null, new { @class = "user-add" })
             </div>
         </div>
-        <table class="table table-striped">
+
+        <table class="table table-bordered">
             <thead>
                 <tr>
                     <td>Изображение</td>
@@ -25,7 +42,7 @@
                 </tr>
             </thead>
             <tbody>
-                @if (Model.CountCheck())
+                @if (@Model.CountCheck())
                 {
                     <tr><td colspan="5" class="text-center">Товары отсутствуют</td></tr>
                 }
@@ -50,4 +67,8 @@
             </tbody>
         </table>
     </div>
+    <div class="btn-group">
+        @Html.PageLinks(Model.PageInfo, x => Url.Action("Product", new { page = x,categoryId=Model.CurrentFilter}))
+    </div>
+
 </div>

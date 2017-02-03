@@ -10,6 +10,7 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/jqueryval")
     @Scripts.Render("~/bundles/bootstrap")
+    <meta name="description" content="The description of my page" />
 </head>
 <body>
 
@@ -21,10 +22,7 @@
                 </a>
             </div>
             <div class="col-sm-9 col-lg-9 col-md-9 text-right">
-                <div class="search">
-                    @Html.TextBox("search-tb", "", new { @class = "search-tb", placeholder = "Введите для поиска" })
-                    <button class="search-icon fa fa-search"></button>
-                </div>
+               @Html.Partial("Search")
             </div>
         </div>
 
@@ -33,10 +31,9 @@
                 <ul>
 
                     <li><a href="@Url.Action("Index","Main")">Главная</a></li>
-                    <li><a href="#">Каталог</a></li>
-                    <li><a href="#">О нас</a></li>
+                    <li><a href="@Url.Action("Index","Catalog")">Каталог</a></li>
+                    <li><a href="@Url.Action("About","Main")">О нас</a></li>
                     <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Наши офисы</a></li>
                 </ul>
             </div>
         </div>
@@ -50,17 +47,16 @@
         <footer class="footer text-center">
             <img src="~/Content/Images/logo-footer.jpg" alt="" /> <br />
             <span>
-                <a href="@Url.Action("Index","Main")">Главная</a> &nbsp;&nbsp;&nbsp;
-                <a href="#">Каталог</a> &nbsp;&nbsp;&nbsp;
-                <a href="#">О нас</a> &nbsp;&nbsp;&nbsp;
-                <a href="#">Отзывы</a> &nbsp;&nbsp;&nbsp;
-                <a href="#">Наши офисы</a> &nbsp;&nbsp;&nbsp;
+                <a href="@Url.Action("Index","Main")">Главная   </a>
+                <a href="@Url.Action("Index","Catalog")">Каталог   </a>
+                <a href="@Url.Action("About","Main")">О нас   </a>
+                <a href="#">Отзывы   </a>
             </span>
 
-            <h4>Copyright Мир Цветов © 2017.</h4>
+            <h4>Copyright © Мир Цветов 2017.</h4>
             
         </footer>
     </div>
-
+    @RenderSection("scripts", required: false)
 </body>
 </html>

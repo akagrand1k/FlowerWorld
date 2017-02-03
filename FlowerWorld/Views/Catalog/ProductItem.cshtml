@@ -1,0 +1,69 @@
+﻿@using FlowerWorld.Models
+
+@model ProductViewModel
+
+<div class="row product-filter">
+    <h2 class="text-center">
+      Наши товары
+    </h2>
+    <div class="col-sm-6 col-sm-offset-3">
+        @using (Html.BeginForm("ProductItem", "Catalog", FormMethod.Get,new { @class = "item-filter"}))
+        {
+            @Html.HiddenFor(x=>x.typeId)
+            <span>Цена от  </span>
+            @Html.TextBoxFor(x => x.minPrice, new { @class = "price-tb",value = "0" })
+            <span>до </span>
+            @Html.TextBoxFor(x => x.maxPrice, new { @class = "price-tb" })
+
+        <button class="btn btn-default">
+            Подобрать
+        </button>
+        }
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-10 col-sm-offset-2">
+        @if (Model.CountCheck())
+        {
+            <h2 class="catalog-header text-center">Товары отсутствуют</h2>
+        }
+        else
+        {
+            foreach (var item in Model.ProductList)
+            {
+                <div class="product-item text-center">
+                    <a href="@Url.Action("OrderSend", "Catalog",new {@ProductId = @item.Id})" class="sendItem">
+                        <img src="@Url.Content(@item.largePath)" />
+                        <br />
+                        <br />
+                        <span>@item.ProductName</span> <br /> <br />
+                        <span>@item.Price руб.</span>
+                    </a>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+<div id="modDialog" class="modal fade">
+    <div id="dialogContent" class="modal-dialog"></div>
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+
+        $(function () {
+            $.ajaxSetup({ cache: false });
+            $(".sendItem").click(function (e) {
+
+                e.preventDefault();
+                $.get(this.href, function (data) {
+                    $('#dialogContent').html(data);
+                    $('#modDialog').modal('show');
+                });
+            });
+        })
+    </script>
+}

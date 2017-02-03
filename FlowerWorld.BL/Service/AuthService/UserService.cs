@@ -11,7 +11,7 @@ namespace FlowerWorld.BL.Service.AuthService
 {
     public class UserService : IUserService
     {
-        private IRepository<User> userRepository;
+        IRepository<User> userRepository;
 
         public UserService(IRepository<User> userRepo)
         {

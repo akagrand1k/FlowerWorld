@@ -176,21 +176,14 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Images\company.jpg" />
+    <Content Include="Content\Images\featured-1.jpg" />
+    <Content Include="Content\Images\featured-2.jpg" />
+    <Content Include="Content\Images\featured-3.jpg" />
+    <Content Include="Content\Images\featured-4.jpg" />
     <Content Include="Content\Images\login-bg.jpg" />
     <Content Include="Content\Images\logo-footer.jpg" />
     <Content Include="Content\Images\logo.jpg" />
-    <Content Include="Content\Images\ProductImage\2ad62da4-e2c3-4c75-85bc-01fbe56a3a8dl.jpg" />
-    <Content Include="Content\Images\ProductImage\2ad62da4-e2c3-4c75-85bc-01fbe56a3a8ds.jpg" />
-    <Content Include="Content\Images\ProductImage\5a143215-e0ec-412e-a541-767a5b33808cl.jpg" />
-    <Content Include="Content\Images\ProductImage\5a143215-e0ec-412e-a541-767a5b33808cs.jpg" />
-    <Content Include="Content\Images\ProductImage\69d39f95-01d4-41d8-8774-95953e5d49fel.jpg" />
-    <Content Include="Content\Images\ProductImage\69d39f95-01d4-41d8-8774-95953e5d49fes.jpg" />
-    <Content Include="Content\Images\ProductImage\ab597114-572d-4a0f-b73e-5c9a7c4a4bbfl.jpg" />
-    <Content Include="Content\Images\ProductImage\ab597114-572d-4a0f-b73e-5c9a7c4a4bbfs.jpg" />
-    <Content Include="Content\Images\ProductImage\be7eafad-fd60-47fa-b5a6-24dcb7a74868l.jpg" />
-    <Content Include="Content\Images\ProductImage\be7eafad-fd60-47fa-b5a6-24dcb7a74868s.jpg" />
-    <Content Include="Content\Images\ProductImage\c510f551-a726-4fe4-bba0-dac6bd367fc1l.jpg" />
-    <Content Include="Content\Images\ProductImage\c510f551-a726-4fe4-bba0-dac6bd367fc1s.jpg" />
     <Content Include="Content\Images\slide1.jpg" />
     <Content Include="Content\Images\slide2.jpg" />
     <Content Include="Content\Images\slide3.jpg" />
@@ -301,6 +294,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\Images\JPEG\" />
+    <Folder Include="Content\Images\ProductImage\" />
     <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>

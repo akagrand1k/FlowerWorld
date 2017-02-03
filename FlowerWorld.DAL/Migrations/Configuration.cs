@@ -1,5 +1,6 @@
 namespace FlowerWorld.DAL.Migrations
 {
+    using Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -26,6 +27,7 @@ namespace FlowerWorld.DAL.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+            
         }
     }
 }

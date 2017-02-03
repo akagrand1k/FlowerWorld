@@ -10,7 +10,7 @@ namespace FlowerWorld.BL.Service.CategoryService
 {
     public class CategoryService : ICategoryService
     {
-        private IRepository<Category> catRepository { get; set; }
+        IRepository<Category> catRepository { get; set; }
         public CategoryService(IRepository<Category> catRepo)
         {
             catRepository = catRepo;

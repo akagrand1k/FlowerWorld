@@ -12,7 +12,7 @@ namespace FlowerWorld.BL.Service.OrderService
 {
     public class OrderService : IOrderService
     {
-        private IRepository<Order> orderRepository;
+        IRepository<Order> orderRepository;
         public OrderService(IRepository<Order> orderRepo)
         {
             orderRepository = orderRepo;

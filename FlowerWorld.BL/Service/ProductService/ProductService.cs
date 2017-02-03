@@ -12,7 +12,7 @@ namespace FlowerWorld.BL.Service.ProductService
 {
     public class ProductService : IProductService
     {
-        private IRepository<Product> prodRepository { get; set; }
+        IRepository<Product> prodRepository { get; set; }
 
         public ProductService(IRepository<Product> prodRepo)
         {
